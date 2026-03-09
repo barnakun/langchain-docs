@@ -2329,6 +2329,18 @@
     {
       "source": "/langsmith/agent-server-api/crons-plus-tier/delete-cron",
       "destination": "/langsmith/agent-server-api/crons/delete-cron"
+    },
+    {
+      "source": "/oss/javascript/integrations/providers/langchain-kubernetes",
+      "destination": "/oss/javascript/integrations/providers/kubernetes"
+    },
+    {
+      "source": "/oss/python/integrations/providers/langchain-kubernetes",
+      "destination": "/oss/python/integrations/providers/kubernetes"
+    },
+    {
+      "source": "/oss/integrations/providers/langchain-kubernetes",
+      "destination": "/oss/integrations/providers/kubernetes"
     }
   ]
 }
